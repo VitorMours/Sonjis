@@ -1,7 +1,7 @@
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 import base64
 import json
-from service.vision_service import VisionService
+from src.service.vision_service import VisionService
 
 router = APIRouter()
 service = VisionService()
