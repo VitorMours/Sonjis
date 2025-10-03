@@ -4,7 +4,7 @@ export default function ChatSkeleton() {
       {/* Mensagem da esquerda */}
       <div className="chat chat-start">
         <div className="chat-bubble skeleton rounded-full p-0">
-          <div className="h-4 w-28 m-2"></div>
+          <div className="h-6 w-30 m-2"></div>
         </div>
       </div>
 
